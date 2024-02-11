@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
 }
 
 .container {
@@ -105,6 +106,7 @@ body {
 
 .hero__title {
     font-size: 3rem;
+    text-align: justify;
 }
 
 .hero__paragraph {
@@ -135,10 +137,12 @@ body {
 
 
 .about__paragraph {
-    line-height: 1.7;
+    line-height: 1;
+    text-align: justify;
 }
 
 .about__main {
+    text-align: justify;
     padding-top: 80px;
     display: grid;
     width: 90%;
@@ -189,7 +193,7 @@ body {
 }
 
 .knowledge__img{
-    width: 100%;
+    width: 80%;
     display: block;
 }
 
@@ -288,6 +292,7 @@ body {
     grid-row: 1/2;
     opacity: 0;
     pointer-events: none;
+    text-align: justify;
 }
 
 
@@ -324,10 +329,11 @@ body {
 /* Questions */
 
 .questions{
-    text-align: center;
+    text-align: justify;
 }
 
 .questions__container{
+    text-align: justify;
     display: grid;
     gap: 2em;
     padding-top: 50px;
@@ -378,7 +384,7 @@ body {
 }
 
 .questions__show{
-    text-align: left;
+    text-align: justify;
     height: 0;
     transition: height .3s;
 }
